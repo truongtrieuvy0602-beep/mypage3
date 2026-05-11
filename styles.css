@@ -51,6 +51,11 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+body.theme-transition {
+    transition: background-color 1.5s ease, color 1.5s ease;
+    filter: blur(0.5px);
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -867,5 +872,381 @@ body.dark-mode .form-group textarea {
         width: 150px;
         height: 150px;
         font-size: 2rem;
+    }
+}
+
+/* Background Effects - Dynamic Sky */
+.background-effects {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.day-effects {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: opacity 1.5s ease;
+}
+
+body.dark-mode .day-effects {
+    opacity: 0;
+}
+
+.night-effects {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+
+body.dark-mode .night-effects {
+    opacity: 1;
+}
+
+/* Clouds Animation */
+.cloud {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    filter: blur(1px);
+    animation: drift linear infinite;
+}
+
+.cloud::before,
+.cloud::after {
+    content: '';
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    filter: blur(1px);
+}
+
+.cloud-1 {
+    width: 120px;
+    height: 60px;
+    top: 15%;
+    left: -150px;
+    animation-duration: 25s;
+    animation-delay: 0s;
+}
+
+.cloud-1::before {
+    width: 80px;
+    height: 40px;
+    top: -10px;
+    left: 20px;
+}
+
+.cloud-1::after {
+    width: 60px;
+    height: 30px;
+    top: 10px;
+    left: 60px;
+}
+
+.cloud-2 {
+    width: 100px;
+    height: 50px;
+    top: 25%;
+    left: -150px;
+    animation-duration: 30s;
+    animation-delay: 5s;
+}
+
+.cloud-2::before {
+    width: 70px;
+    height: 35px;
+    top: -8px;
+    left: 15px;
+}
+
+.cloud-2::after {
+    width: 50px;
+    height: 25px;
+    top: 8px;
+    left: 50px;
+}
+
+.cloud-3 {
+    width: 140px;
+    height: 70px;
+    top: 35%;
+    left: -150px;
+    animation-duration: 35s;
+    animation-delay: 10s;
+}
+
+.cloud-3::before {
+    width: 90px;
+    height: 45px;
+    top: -12px;
+    left: 25px;
+}
+
+.cloud-3::after {
+    width: 70px;
+    height: 35px;
+    top: 15px;
+    left: 75px;
+}
+
+.cloud-4 {
+    width: 90px;
+    height: 45px;
+    top: 45%;
+    left: -150px;
+    animation-duration: 28s;
+    animation-delay: 15s;
+}
+
+.cloud-4::before {
+    width: 60px;
+    height: 30px;
+    top: -6px;
+    left: 12px;
+}
+
+.cloud-4::after {
+    width: 45px;
+    height: 22px;
+    top: 6px;
+    left: 40px;
+}
+
+.cloud-5 {
+    width: 110px;
+    height: 55px;
+    top: 55%;
+    left: -150px;
+    animation-duration: 32s;
+    animation-delay: 20s;
+}
+
+.cloud-5::before {
+    width: 75px;
+    height: 37px;
+    top: -9px;
+    left: 18px;
+}
+
+.cloud-5::after {
+    width: 55px;
+    height: 27px;
+    top: 10px;
+    left: 55px;
+}
+
+@keyframes drift {
+    0% {
+        transform: translateX(-150px);
+    }
+    100% {
+        transform: translateX(calc(100vw + 150px));
+    }
+}
+
+/* Stars Animation */
+.star {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    animation: twinkle ease-in-out infinite alternate, float-star linear infinite;
+}
+
+.star-1 {
+    width: 3px;
+    height: 3px;
+    top: 20%;
+    left: 10%;
+    animation-duration: 3s, 40s;
+    animation-delay: 0s, 0s;
+}
+
+.star-2 {
+    width: 2px;
+    height: 2px;
+    top: 15%;
+    left: 25%;
+    animation-duration: 4s, 35s;
+    animation-delay: 1s, 5s;
+}
+
+.star-3 {
+    width: 4px;
+    height: 4px;
+    top: 30%;
+    left: 40%;
+    animation-duration: 2.5s, 45s;
+    animation-delay: 2s, 10s;
+}
+
+.star-4 {
+    width: 2px;
+    height: 2px;
+    top: 25%;
+    left: 60%;
+    animation-duration: 3.5s, 38s;
+    animation-delay: 0.5s, 15s;
+}
+
+.star-5 {
+    width: 3px;
+    height: 3px;
+    top: 40%;
+    left: 75%;
+    animation-duration: 4.5s, 42s;
+    animation-delay: 1.5s, 20s;
+}
+
+.star-6 {
+    width: 2px;
+    height: 2px;
+    top: 35%;
+    left: 85%;
+    animation-duration: 3s, 37s;
+    animation-delay: 2.5s, 25s;
+}
+
+.star-7 {
+    width: 3px;
+    height: 3px;
+    top: 50%;
+    left: 15%;
+    animation-duration: 4s, 41s;
+    animation-delay: 0.8s, 30s;
+}
+
+.star-8 {
+    width: 2px;
+    height: 2px;
+    top: 45%;
+    left: 35%;
+    animation-duration: 2.8s, 39s;
+    animation-delay: 1.8s, 35s;
+}
+
+.star-9 {
+    width: 4px;
+    height: 4px;
+    top: 60%;
+    left: 50%;
+    animation-duration: 3.2s, 43s;
+    animation-delay: 2.2s, 40s;
+}
+
+.star-10 {
+    width: 2px;
+    height: 2px;
+    top: 55%;
+    left: 70%;
+    animation-duration: 4.2s, 36s;
+    animation-delay: 0.3s, 45s;
+}
+
+.star-11 {
+    width: 3px;
+    height: 3px;
+    top: 70%;
+    left: 20%;
+    animation-duration: 3.8s, 44s;
+    animation-delay: 1.3s, 50s;
+}
+
+.star-12 {
+    width: 2px;
+    height: 2px;
+    top: 65%;
+    left: 45%;
+    animation-duration: 2.6s, 38s;
+    animation-delay: 2.8s, 55s;
+}
+
+.star-13 {
+    width: 3px;
+    height: 3px;
+    top: 75%;
+    left: 65%;
+    animation-duration: 4.8s, 40s;
+    animation-delay: 0.6s, 60s;
+}
+
+.star-14 {
+    width: 2px;
+    height: 2px;
+    top: 80%;
+    left: 80%;
+    animation-duration: 3.4s, 42s;
+    animation-delay: 1.6s, 65s;
+}
+
+.star-15 {
+    width: 4px;
+    height: 4px;
+    top: 85%;
+    left: 5%;
+    animation-duration: 2.9s, 37s;
+    animation-delay: 2.1s, 70s;
+}
+
+@keyframes twinkle {
+    0% {
+        opacity: 0.3;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+@keyframes float-star {
+    0% {
+        transform: translateY(0px) translateX(0px);
+    }
+    25% {
+        transform: translateY(-5px) translateX(2px);
+    }
+    50% {
+        transform: translateY(-10px) translateX(-1px);
+    }
+    75% {
+        transform: translateY(-5px) translateX(1px);
+    }
+    100% {
+        transform: translateY(0px) translateX(0px);
+    }
+}
+
+/* Responsive Background Effects */
+@media screen and (max-width: 768px) {
+    .cloud {
+        transform: scale(0.7);
+    }
+    
+    .star {
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cloud {
+        transform: scale(0.5);
+    }
+    
+    .star {
+        transform: scale(0.6);
     }
 }

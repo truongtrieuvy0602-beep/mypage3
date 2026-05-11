@@ -12,9 +12,13 @@ if (currentTheme === 'dark') {
 
 // Toggle theme on button click
 themeToggle.addEventListener('click', () => {
+    // Add transition class for smooth effect
+    body.classList.add('theme-transition');
+    
+    // Toggle theme
     body.classList.toggle('dark-mode');
     
-    // Update localStorage
+    // Update localStorage and icon
     if (body.classList.contains('dark-mode')) {
         localStorage.setItem('theme', 'dark');
         themeToggle.textContent = '☀️';
@@ -22,6 +26,11 @@ themeToggle.addEventListener('click', () => {
         localStorage.setItem('theme', 'light');
         themeToggle.textContent = '🌙';
     }
+    
+    // Remove transition class after animation
+    setTimeout(() => {
+        body.classList.remove('theme-transition');
+    }, 1500);
 });
 
 // Handle Form Submission
