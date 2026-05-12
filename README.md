@@ -1,6 +1,6 @@
 Danh sách công cụ AI đã sử dụng: Github, Chat GPT
 
-Prompt đã sử dụng:
+Prompt đã sử dụng cho Github:
 Bạn là một chuyên gia về UI/UX tạo giúp tôi porfolio đơn giản bao gồm HTML + CSS, giao diện màu tím hồng pastel, có nút thay đổi theme ở đầu trang. Thông tin cá nhân là Trương Triệu Vy ,nghề nghiệp: Sinh viên khoa CNTT - Đồ họa kĩ thuật số. Nội dung website
 Website portfolio cá nhân phải bao gồm tối thiểu các nội dung sau:
 Phần giới thiệu (Hero): Họ tên, vai trò nghề nghiệp, câu mô tả ngắn mang dấu ấn cá nhân;
