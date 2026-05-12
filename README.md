@@ -1,6 +1,6 @@
 # Danh sách công cụ AI đã sử dụng: 
 
-Github, Chat GPT
+Github, Chat GPT để tạo promt cho dự án
 
 # Prompt đã sử dụng cho Github:
 
