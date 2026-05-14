@@ -1,6 +1,7 @@
 # Danh sách công cụ AI đã sử dụng: 
 
-Github, Chat GPT để tạo promt cho dự án
+Github 
+Chat GPT để tạo promt cho dự án
 
 # Prompt đã sử dụng cho Github:
 
@@ -23,10 +24,16 @@ Có tối thiểu một yếu tố tương tác (ví dụ: hiệu ứng chuyển
 
 # Mô tả quá trình chỉnh sửa kết quả AI:
 
-Sau khi nhận kết quả từ AI, em đã chỉnh sửa lại nội dung để phù hợp hơn với ý tưởng của bản thân. Quá trình chỉnh sửa chủ yếu là lược bỏ những phần nội dung dài hoặc chưa cần thiết, đồng thời thay đổi cách diễn đạt để câu văn ngắn gọn, dễ hiểu và phù hợp với phong cách portfolio cá nhân.
+Sau khi nhận kết quả từ AI, em đã chỉnh sửa lại nội dung để phù hợp hơn với ý tưởng của bản thân. 
+
+Quá trình chỉnh sửa chủ yếu là lược bỏ những phần nội dung dài hoặc chưa cần thiết, đồng thời thay đổi cách diễn đạt để câu văn ngắn gọn, dễ hiểu và phù hợp với phong cách portfolio cá nhân.
+
 Ngoài ra, đã sắp xếp và chỉnh lại một số nội dung để giao diện trông gọn gàng hơn, giúp người xem dễ theo dõi thông tin và tạo cảm giác chuyên nghiệp hơn cho website.
+
+Cuối cùng là lưu và xuất kết quả của dự án.
 
 # Ý tưởng thiết kế tổng thể:
 
 Ý tưởng thiết kế tổng thể của website portfolio là xây dựng giao diện cá nhân theo phong cách hiện đại, tối giản và trẻ trung. Website sử dụng tông màu tím – hồng pastel làm chủ đạo nhằm tạo cảm giác nhẹ nhàng, thân thiện và phù hợp với lĩnh vực UI/UX Design.
+
 Bố cục được sắp xếp rõ ràng với các phần giới thiệu bản thân, kỹ năng, dự án và thông tin liên hệ, giúp người xem dễ dàng theo dõi nội dung. Font chữ và cách phối màu được lựa chọn theo hướng mềm mại, tạo cảm giác hài hòa và dễ nhìn.
