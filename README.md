@@ -24,13 +24,15 @@ Có tối thiểu một yếu tố tương tác (ví dụ: hiệu ứng chuyển
 
 # Mô tả quá trình chỉnh sửa kết quả AI:
 
-Sau khi nhận kết quả từ AI, em đã chỉnh sửa lại nội dung để phù hợp hơn với ý tưởng của bản thân. 
+Sau khi nhận kết quả từ AI, em đã chỉnh sửa lại nội dung để phù hợp hơn với ý tưởng và định hướng thiết kế cá nhân.
 
-Quá trình chỉnh sửa chủ yếu là lược bỏ những phần nội dung dài hoặc chưa cần thiết, đồng thời thay đổi cách diễn đạt để câu văn ngắn gọn, dễ hiểu và phù hợp với phong cách portfolio cá nhân.
+Quá trình chỉnh sửa chủ yếu tập trung vào việc lược bỏ những phần nội dung còn dài hoặc chưa thật sự cần thiết, đồng thời thay đổi cách diễn đạt để câu văn ngắn gọn, dễ hiểu và phù hợp với phong cách portfolio cá nhân của sinh viên ngành thiết kế.
 
-Ngoài ra, đã sắp xếp và chỉnh lại một số nội dung để giao diện trông gọn gàng hơn, giúp người xem dễ theo dõi thông tin và tạo cảm giác chuyên nghiệp hơn cho website.
+Ngoài ra, em đã sắp xếp lại các phần nội dung như giới thiệu bản thân, kỹ năng, dự án và liên hệ để bố cục website trở nên cân đối và dễ nhìn hơn. Một số chi tiết về khoảng cách, màu sắc và font chữ cũng được điều chỉnh để tạo cảm giác hài hòa, nhẹ nhàng và chuyên nghiệp.
 
-Cuối cùng là lưu và xuất kết quả của dự án.
+Trong quá trình hoàn thiện, em tiếp tục tinh chỉnh giao diện nhằm đảm bảo tính responsive trên nhiều thiết bị khác nhau như điện thoại, máy tính bảng và máy tính cá nhân. Các hiệu ứng hover, chuyển động nhẹ và nút chuyển đổi giao diện sáng/tối cũng được giữ lại nhằm tăng tính tương tác và cải thiện trải nghiệm người dùng.
+
+Bên cạnh đó, em cũng thay đổi một số hình ảnh minh họa và nội dung mô tả dự án để phù hợp hơn với phong cách thiết kế tổng thể của website. Sau khi hoàn thiện các bước chỉnh sửa, sản phẩm được kiểm tra lại tổng thể trước khi lưu và xuất kết quả cuối cùng.
 
 # Ý tưởng thiết kế tổng thể:
 
